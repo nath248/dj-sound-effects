@@ -1,0 +1,62 @@
+html {
+    margin: auto;
+    color: hotpink;
+    background-color: black;
+}
+
+body {}
+
+header {
+    margin: 80px;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+#main-title {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: hotpink;
+}
+
+p {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 18px;
+}
+
+#main-image {
+    width: 1200px;
+    height: 720px;
+}
+
+.container {
+    background-image: url("dj-img.png");
+    display: grid;
+    grid-template-columns: 220px 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container .grid {
+    background-color: white;
+    opacity: 0.9;
+    margin: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
