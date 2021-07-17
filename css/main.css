@@ -3,12 +3,14 @@ html {
     color: hotpink;
     background-color: black;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 header {
     margin: 20px;
     text-align: center;
+    font-size: larger;
+    height: 100px;
 }
 
 div {
@@ -42,8 +44,6 @@ i {
 
 p {
     font-weight: bold;
-    text-decoration: underline;
-    text-decoration-color: white;
     font-size: 18px;
 }
 
@@ -55,6 +55,7 @@ p {
 .container {
     display: grid;
     grid-template-columns: 320px 320px;
+    grid-template-rows: 200px 200px 200px 200px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 20px;
@@ -70,7 +71,7 @@ p {
 .container .grid {
     background-color: white;
     opacity: 0.8;
-    margin: 10px 30px 10px 10px;
+    margin: 10px 10px 10px 10px;
     padding-bottom: 5px;
     align-items: center;
     justify-content: center;
