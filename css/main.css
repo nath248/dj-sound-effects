@@ -2,12 +2,12 @@ html {
     margin: auto;
     color: hotpink;
     background-color: black;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
-body {}
-
 header {
-    margin: 80px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -16,13 +16,22 @@ div {
     justify-content: center;
 }
 
-h1 {
-    color: black;
+h3 {
+    color: rgba(137, 3, 190, 0.925);
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
 }
 
+h1,
 h2 {
     text-decoration: underline;
     text-decoration-color: black;
+    font-family: 'Anton', sans-serif;
+}
+
+i {
+    color: hotpink;
+    padding-right: 20px;
 }
 
 #main-title {
@@ -44,26 +53,40 @@ p {
 }
 
 .container {
-    background-image: url("dj-img.png");
     display: grid;
-    grid-template-columns: 220px 220px;
+    grid-template-columns: 320px 320px;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.img {
+    background-image: url('../dj-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container .grid {
     background-color: white;
-    opacity: 0.9;
-    margin: 5px;
+    opacity: 0.8;
+    margin: 10px 30px 10px 10px;
     padding-bottom: 5px;
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    transition: all 0.12s;
+    transition: all 0.20s;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .play {
     transform: scale(1.1);
     border-color: hotpink;
     box-shadow: 0 0 1rem hotpink;
+}
+
+footer {
+    text-align: center;
+    font-weight: bolder;
 }

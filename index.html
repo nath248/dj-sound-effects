@@ -8,46 +8,51 @@
     <title>DJ Sound Effects</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97cb1c8726.js" crossorigin="anonymous"></script>
 </head>
 <header>
-    <h1 id="main-title">DJ Sound Effects</h1>
+    <h2 id="main-title">DJ Sound Effects</h2>
     <p>Press the keyboard letter under the sound to check out these cool DJ sound effects!</p>
 </header>
 
 <body>
-
-    <div class="container">
-        <div data-key="65" class="grid">
-            <h2>Air Horn</h2>
-            <h1>A</h1>
-        </div>
-        <div data-key="66" class="grid">
-            <h2>Gun Cocked</h2>
-            <h1>B</h1>
-        </div>
-        <div data-key="67" class="grid">
-            <h2>Machine Gun</h2>
-            <h1>C</h1>
-        </div>
-        <div data-key="68" class="grid">
-            <h2>Psycho</h2>
-            <h1>D</h1>
-        </div>
-        <div data-key="69" class="grid">
-            <h2>Siren Hall</h2>
-            <h1>E</h1>
-        </div>
-        <div data-key="70" class="grid">
-            <h2>Siren Long</h2>
-            <h1>F</h1>
-        </div>
-        <div data-key="71" class="grid">
-            <h2>Two Horn</h2>
-            <h1>G</h1>
-        </div>
-        <div data-key="72" class="grid">
-            <h2>Waoo</h2>
-            <h1>H</h1>
+    <div class="img">
+        <div class="container">
+            <div data-key="65" class="grid">
+                <h2>Air Horn</h2>
+                <h3><i class="far fa-keyboard fa-lg"></i>A</h3>
+            </div>
+            <div data-key="66" class="grid">
+                <h2>Gun Cocked</h2>
+                <h3><i class="far fa-keyboard fa-lg"></i>B</h3>
+            </div>
+            <div data-key="67" class="grid">
+                <h2>Machine Gun</h2>
+                <h3><i class="far fa-keyboard fa-lg"></i>C</h3>
+            </div>
+            <div data-key="68" class="grid">
+                <h2>Psycho</h2>
+                <h3><i class="far fa-keyboard fa-lg"></i>D</h3>
+            </div>
+            <div data-key="69" class="grid">
+                <h2>Siren Hall</h2>
+                <h3><i class="far fa-keyboard fa-lg"></i>E</h3>
+            </div>
+            <div data-key="70" class="grid">
+                <h2>Siren Long</h2>
+                <h3><i class="far fa-keyboard fa-lg"></i>F</h3>
+            </div>
+            <div data-key="71" class="grid">
+                <h2>Two Horn</h2>
+                <h3><i class="far fa-keyboard fa-lg"></i>G</h3>
+            </div>
+            <div data-key="72" class="grid">
+                <h2>Waoo</h2>
+                <h3><i class="far fa-keyboard fa-lg"></i>H</h3>
+            </div>
         </div>
     </div>
 
@@ -60,7 +65,13 @@
     <audio data-key="71" src="audio-files/two-horn.mp3"></audio>
     <audio data-key="72" src="audio-files/waao.mp3"></audio>
 
+
+    <footer>
+        <small>All sounds were acquired from <a href="https://soundsozai.com/dj-sound-effects/">SoundSozai</a></small>
+    </footer>
     <script src="script.js"></script>
 </body>
+
+
 
 </html>
